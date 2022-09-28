@@ -5,10 +5,10 @@ def insertionSort(array) -> List[int]:
      key = array[j]
      i = j - 1  
      while i >= 0 and key < array[i]:  
-                array[i + 1] = array[i]  
-                i -= 1  
-            array[i + 1] = key  
-        return array  
+      array[i + 1] = array[i]  
+      i -= 1  
+     array[i + 1] = key  
+  return array  
                   
 
 # data = [9, 5, 1, 4, 3]
