@@ -1,6 +1,6 @@
-from typing import List
 
-def insertionSort(array) -> List[int]:
+
+def insertionSort(array):
   for j in range (1, length[array]):
      key = array[j]
      i = j - 1  
